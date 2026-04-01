@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Estilos de texto</title>
+<style type="text/css">
+  body {
+    font-family: Arial, Sans-Serif;
+    background-color: #F7F0E2;
+	color: #880000;
+  }
+  h1 {
+    text-align: center;
+	text-decoration: underline;
+	}
+  h2 { background-color: #EFD1D1;
+    font-variant: small-caps;
+	padding-left: 1em;
+  }
+  p { margin: 1.5em 3em;
+      text-align: justify;
+	  line-height: 1.5em;
+	  }
+  span {font-family: monospace;
+        font-size: 110%;
+		color: #666666;
+		background-color: white;
+		}
+    
+  </style>
+</head>
+<body>
+<h1>Formato del texto</h1>
+    <p>A cualquier etiqueta le podemos aplicar el formato t&iacute;pico al texto que contiene, por ejemplo a un p&aacute;rrafo. Si queremos ser m&aacute;s concretos, por ejemplo aplicar el estilo a una palabra dentro de un p&aacute;rrafo, debemos de utilizar la etiqueta <span>&lt;span&gt;&lt;/span&gt;</span>. Esta etiqueta por defecto no tienen ning&uacute;n formato.</p>
+    <h2>Color</h2>
+    <p>El color se expresa con la propiedad  <span>color</span>. Por ejemplo  <span>color: #0000FF;</span>,  <span>color: rgb(0, 0, 255);</span> o  <span>color: blue;</span>.</p>
+<h2>Fuente</h2>
+    <p>Podemos elegir la fuente a trav&eacute;s del atributospan font-family. Podemos indicar cualquier fuente que queramos, teniendo en cuenta que si incluye espacios, debe de ir entre comillas dobles. Por ejemplo  <span>font-family: arial;</span> o  <span>font-family: &quot;Times New Roman&quot;</span>.</p>
+<p> Pero hemos de tener en cuenta que puede que quien vea la p&aacute;gina no tenga instalada la fuente que queramos. Para evitar esto, existen cinco fuentes gen&eacute;ricas que s&iacute; se mostrar&aacute;n en cualquier equipo: serif, sans-serif,cursive,fantasy, monospace. Esto no quiere decir que s&oacute;lo debamos de utilizar estas cinco. El valor de <span>font-family</span> pueden ser varias fuentes, separadas por comas. El navegador elegir&aacute;, comenzando por la derecha, la primera disponible, por lo que es conveniente terminar por una gen&eacute;rica.<br /> 
+  Por ejemplo, <span>font-family:Georgia, &quot;Times New Roman&quot;, Times, serif;</span>.</p>
+<h2>Tama&ntilde;o</h2>
+<p>El tama&ntilde;o se regula a trav&eacute;s de la propiedad <span>font-size</span>. Podemos utilizar cualquiera de las unidades de tama&ntilde;o, pero lo m&aacute;s frecuente es utilizar % o em, en relaci&oacute;n con la fuente base del documento, que es 100% o 1em.</p>
+</body>
+</html>
