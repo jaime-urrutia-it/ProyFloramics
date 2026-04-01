@@ -1,0 +1,170 @@
+﻿ body {
+ 	font-family: Verdana,Arial,sans-serif;
+ 	font-size: 15px;
+ 	color: #735846;
+ 	text-align: justify;
+	background-color:#3D2E2A;
+ 	}
+ h2 {
+ 	font-size: 150%;
+	color: #d38451;
+ 	}
+ h1 {
+ 	font-size: 180%;
+ 	color: #d38451;
+	float:left;
+	margin: 0 0 0 40px;
+ 	}
+ p  {
+ 	line-height: 1.5em;
+ 	}
+ table{
+	text-align: left; 
+	width: 100%;
+	border: 1px solid #ff7600;
+	} 
+	
+	
+	
+	/* C L A S E S */
+	
+.pie {
+ 	font-size: 80%;
+ 	text-align: center;
+ 	}
+.contenido {
+	margin: 20px;
+	padding: 20px;
+	background-color: #f5e4cc;
+	clear: both; /*PARA QUE EL MENU NO QUEDE POR ENCIMA*/
+	}
+.cita{
+	font-style: oblique;
+	font-size: 100%; text-align: right;
+	}
+.cita :first-child{
+	text-align: center; font-size: 100%;
+	}
+.cita p{
+	font-style: oblique;
+	font-size: 60%; text-align: right;
+}	
+.firma{
+	font-style: oblique;
+	font-size: 80%; text-align: right;
+}
+.ficha{
+	border: 1px solid #d38451;
+	margin: 15px;
+	width: 300px;
+	height: 136px;
+	float: left;
+	}
+.ficha p {
+	margin: 3px;
+	line-height: 1.3em;
+	font-size: 90%;
+	color: #3d2e2a;	
+	}
+.ficha p.cien {
+  margin-top: 1em;
+  font-style: oblique;
+  color: #735846;
+}	
+.ficha img{
+	float:left;
+	margin:3px;
+	border: 2px solid #d38451;
+	}
+.ficha img:hover{
+	border-color: #ff7600;
+	}	
+.fichamenu{
+	border: 1px solid #d38451;
+	margin: 15px;
+	width: 200px;
+	height: 175px;
+	float: left;
+	list-style-type: none;
+	text-align:center;
+	margin-bottom:30px;
+	
+}
+
+
+	/* M E N U*/
+	
+ ul#menu {
+    margin: 0 40px 0 0;
+    padding: 0;
+    list-style-type: none;
+	font-size: 105%;
+	float: right;
+    }
+#menu li {
+    background-color: #AA876F;
+    border-style: solid; border-color: #f0d7b5; border-width: 3px 2px 0 2px;
+    margin: 0 2px ;
+	float:left;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align:center;	
+	position:relative;
+    }
+#menu a {
+    color: #f5e4cc;
+    text-decoration:none;
+    display: block;     
+    padding: 2px;
+    }
+#menu li:hover {
+	border-color: #FF7600;
+	}
+#menu li:hover a {
+	color: #FF7600;
+	}
+#menu li.activa {
+	border-color: #f5e4cc;
+	background-color: #f5e4cc;
+	}
+#menu li.activa a {
+	color: #5F4232;
+	}
+   
+   
+   
+	/* T A B L A*/
+	
+#flores{
+	font-size: 90%;
+	background-color: #f0d7b5;
+}	
+.alterna{
+	background-color: #f5e4cc;
+}	
+	
+	
+	
+	/* I M A G E N */
+	
+#luchon{
+	width:43.6%;
+	margin-left:23%;
+	border-style: solid; border-color: #f0d7b5; border-width: 20px;
+}
+	
+	
+	
+	/* M A P A */
+	
+#mapa{
+	margin:auto;
+	padding:10px 25% 10px;
+}
+	
+	
+	
+	
+	
+	

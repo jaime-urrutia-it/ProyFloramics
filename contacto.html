@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <title>Floramics. Amics de les flors</title>
+ <link rel="stylesheet" href="estilo.css" type="text/css" />
+ <script type="text/javascript" src="js/funciones.js"></script>
+</head>
+<body>
+<div>
+   <h1>Floramics</h1>
+   <ul id="menu">
+		<li><a href="index.html">Inici</a></li>
+			<li onmouseover="verSubmenu();" onmouseout="ocultarSubmenu();"><a href="flores/index.html">Flors</a>
+				<ul id="sub_flores" style="list-style-type:none;">
+				<li><a href="flores/categoria_a.html">Silvestres</a></li>
+				<li><a href="flores/categoria_b.html">Ornamentals</a></li>
+				<li><a href="flores/categoria_c.html">Exótiques</a></li>
+				<li><a href="flores/categoria_d.html">Plantes</a></li>
+				</ul>
+			</li>
+		<li><a href="nosotros.html">Nosaltres</a></li>
+		<li class="activa"><a href="contacto.html">Contacte</a></li>
+		<li><a href="noticias.html">Noticies</a></li>
+   </ul>
+  </div>
+  <div class="contenido">
+   <h2>Contacte</h2>
+   <p>Benvingut a la secció de contacte de Floramics!</p>
+   <p>Omple els camps per realitzar la teva consulta, et respondrem lo abans possible, moltes gracies</p>
+   <form method="post" action="enviar_mail.php">
+
+ <table style="text-align: left; width: 100%;" cellpadding="3" rules="rows">
+
+ <tbody>
+
+   <tr>
+
+     <td>Nom:</td>
+
+     <td><input type="text" name="nombre" id="nombre" /></td>
+
+   </tr>
+
+   <tr>
+
+     <td>Correu electrónic:</td>
+
+     <td><input type="text" name="email1" id="email1" /></td>
+
+   </tr>
+
+   <tr>
+
+     <td>Repeteix el teu correu:</td>
+
+     <td><input type="text" name="email2" id="email2" /></td>
+
+   </tr>
+
+   <tr>
+
+   <td>¿Cóm ens vas coneixer?:</td>
+
+     <td><select name="conocio" id="conocio">
+
+      <option selected="selected"></option>
+
+      <option>Un amic</option>
+
+      <option>Un blog</option>
+
+      <option>Un buscador</option>
+
+      <option>Altres</option>
+
+    </select></td>
+
+   </tr>
+
+   <tr>
+
+     <td>La teva pregunta es referent a:</td>
+
+     <td><label><input type="radio" name="referente" id="ref_web" value="web" /> 
+
+      La Web </label><br />
+
+     <label><input type="radio" name="referente" id="ref_fotos" value="fotos" /> 
+
+      Les fotos </label><br />
+
+     <label><input type="radio" name="referente" id="ref_asociacion" value="asociacion" /> 
+
+      La asociaci&oacute; </label></td>
+
+   </tr>
+
+   <tr>
+
+     <td colspan="2">Escriu lo que vols preguntar-nos:</td>
+
+   </tr>
+
+   <tr>
+
+     <td class="centrado" colspan="2">
+
+      <textarea cols="50" rows="5" name="consulta"></textarea></td>
+
+   </tr>
+
+   <tr>
+
+     <td class="centrado" colspan="2"><input type="submit" value="Enviar" />
+
+       <input type="reset" value="Restablecer" /></td>
+
+   </tr>
+
+  </tbody>
+
+ </table>
+
+</form>
+
+  </div>
+  <div class="pie">&copy; Tots els drets reservats</div>
+</body>
+
+</html>
